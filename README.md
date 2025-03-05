@@ -21,7 +21,7 @@ This site is intended to serve the public who would like to travel via the Starc
 - An image, or a map if achievable, showing the route the ferry will follow to give customers an opportunity to plan their trip and find activities / transport to continue their journey.
 - **Important** information regarding to locating and arriving at the ferry, and accessibility. 
 
-### 3. Pricing *(pricing.html)*
+### 3. Pricing (`pricing.html`)
 - Breakdown of pricing, acompanied by important details regarding methods of payment and key information to ensure a smooth experience.
 - Dislaimers such as
   - During peak times the ferry service may be busy.
@@ -68,3 +68,25 @@ This site is intended to serve the public who would like to travel via the Starc
 + Visit the homepage.
 + Locate the "Contact Us" page.
 + Locate and call the available phone numbers, or use the provided form to submit key information for the team to review and contact you back.
+
+### 4. Photographer
+
+**Who:** A photographer or journalist looking to utilise the ferry to capture footage or photographs for various uses.
+
+**Why:** They may want to see the route taken, images of the journey or the images of the surrounding area to determine if they would be able to gather suitable footage.
+
+**How:**  
++ Visit the homepage.
++ Scroll down the page to see selected images.
++ Locate the "Routes & Timetables" page.
++ View the available route and additional pictures.
+
+## Technologies Used (Planned)
+
+| Technology | Purpose |
+|-|-|
+| **HTML** | Structures content and elements of the site.
+| **CSS** | Stylse the site, including layout, colours, and fonts.
+| **Font Awesome** | Provides appealing icons.
+| **Git & GitHub** | Version control and repository.
+| **GitHub Pages** | Deployment of the site.
