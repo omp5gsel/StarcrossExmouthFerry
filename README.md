@@ -1,4 +1,4 @@
-# StarcrossExmouthFerry
+# Starcross Exmouth Ferry
 
 A website providing **route details, ferry schedules, pricing, and contact information** for passengers traveling between Starcross and Exmouth.
 
@@ -13,10 +13,10 @@ This site is intended to serve the public who would like to travel via the Starc
 
 ## Navigation
 
-### 1. Home Page *(index.html)*
+### 1. Home Page (`index.html`)
 - An overview of the ferry showing brief information about months  that the service is operable, information to draw potentials customers to use the service and pictures of the service & scenery.
 
-### 2. Routes & Timetables *(routes.html)*
+### 2. Routes & Timetables (`routes.html`)
 - The first section will show the timetable as this would be the most required information and therefore would be beneficial to make it the first item that a customer is presented with. This will include times showing the departure from both sides of the trip. 
 - An image, or a map if achievable, showing the route the ferry will follow to give customers an opportunity to plan their trip and find activities / transport to continue their journey.
 - **Important** information regarding to locating and arriving at the ferry, and accessibility. 
@@ -29,7 +29,7 @@ This site is intended to serve the public who would like to travel via the Starc
   - Cash only due to inconsistent network connectivity.
 - Availability for hire for earlier and later trips, contact required - link to *contact* page.
 
-### 4. Contact Us *(contact.html)*
+### 4. Contact Us (`contact.html`)
 - Key people involved with the ferry
 - Provide contact information
 - Provide contact times, for example, not outside of X:XX to Y:YY hours
