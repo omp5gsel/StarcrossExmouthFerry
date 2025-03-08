@@ -90,3 +90,18 @@ This site is intended to serve the public who would like to travel via the Starc
 | **Font Awesome** | Provides appealing icons.
 | **Git & GitHub** | Version control and repository.
 | **GitHub Pages** | Deployment of the site.
+
+## Wireframes
+
+The website layout was planned using wireframes to ensure a user-friendly and responsive design. Below are the wireframes for desktop, tablet, and mobile views of the home page.
+
+### Desktop Wireframe
+![Desktop Wireframe](wireframes/wireframe-desktop.png)
+
+### Tablet Wireframe
+![Tablet Wireframe](wireframes/wireframe-tablet.png)
+
+### Mobile Wireframe
+![Mobile Wireframe](wireframes/wireframe-mobile.png)
+
+>These wireframes helped structure the website before development, ensuring a clear navigation layout and proper content positioning.
