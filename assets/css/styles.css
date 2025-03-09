@@ -22,7 +22,6 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #ff5733; /* Temporary background */
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -44,7 +43,6 @@ header {
 
 /* Navigation */
 nav {
-	background-color: #c70039; /* Temporary background */
 	padding: 15px;
 }
 
@@ -60,15 +58,13 @@ nav {
 }
 
 .navigation a {
-	color: white;
 	text-decoration: none;
 }
 
 /* Main Section */
 .main-section {
 	text-align: center;
-	background-color: #33ff57; /* Temporary background */
-	padding: 20px 0; /* Ensure content inside has space */
+	padding: 20px 0;
 }
 
 .main-heading {
@@ -86,8 +82,6 @@ nav {
 .timetable-button {
 	display: block;
 	padding: 20px;
-	background-color: #004080;
-	color: white;
 	text-decoration: none;
 	margin: 20px auto;
 	text-align: center;
@@ -96,14 +90,12 @@ nav {
 
 /* Customer Reviews Section */
 .reviews-section {
-	background-color: #3385ff; /* Temporary background */
 	text-align: center;
-	padding: 20px 0; /* Ensure padding instead of margins */
+	padding: 20px 0;
 }
 
 .reviews-heading {
 	font-size: 24px;
-	color: white;
 }
 
 .reviews-container {
@@ -112,9 +104,8 @@ nav {
 }
 
 .review-card {
-	background-color: white;
 	width: 30%;
-	padding: 10px; /* Prevents content touching edges */
+	padding: 10px;
 }
 
 .reviewer-photo {
@@ -124,8 +115,6 @@ nav {
 
 /* Footer */
 footer {
-	background-color: #ff33aa; /* Temporary background */
-	color: white;
 	text-align: center;
 	width: 100%;
 	box-sizing: border-box;
