@@ -1,0 +1,138 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #000;
+}
+
+/* Remove white gaps between sections */
+section, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #ff5733; /* Temporary background */
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.logo-title-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo-container img {
+	width: 80px;
+	height: auto;
+}
+
+.site-title {
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+/* Navigation */
+nav {
+	background-color: #c70039; /* Temporary background */
+	padding: 15px;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.navigation li {
+	margin-left: 15px;
+}
+
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Main Section */
+.main-section {
+	text-align: center;
+	background-color: #33ff57; /* Temporary background */
+	padding: 20px 0; /* Ensure content inside has space */
+}
+
+.main-heading {
+	font-size: 24px;
+}
+
+.main-image {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+}
+
+/* Timetable Button */
+.timetable-button {
+	display: block;
+	padding: 20px;
+	background-color: #004080;
+	color: white;
+	text-decoration: none;
+	margin: 20px auto;
+	text-align: center;
+	width: fit-content;
+}
+
+/* Customer Reviews Section */
+.reviews-section {
+	background-color: #3385ff; /* Temporary background */
+	text-align: center;
+	padding: 20px 0; /* Ensure padding instead of margins */
+}
+
+.reviews-heading {
+	font-size: 24px;
+	color: white;
+}
+
+.reviews-container {
+	display: flex;
+	justify-content: center;
+}
+
+.review-card {
+	background-color: white;
+	width: 30%;
+	padding: 10px; /* Prevents content touching edges */
+}
+
+.reviewer-photo {
+	width: 60px;
+	height: 60px;
+}
+
+/* Footer */
+footer {
+	background-color: #ff33aa; /* Temporary background */
+	color: white;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+
+.social-links img {
+	width: 30px;
+}
+
+footer p {
+	font-size: 14px;
+	margin: 0;
+}
