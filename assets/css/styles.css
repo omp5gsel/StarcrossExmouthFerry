@@ -141,8 +141,8 @@ footer p {
 	margin: 0;
 }
 
-/* Tablet View (437px - 1439px) */
-@media (max-width: 1439px) and (min-width: 437px) {
+/* Tablet View (601px - 1199px) */
+@media (min-width: 601px) and (max-width: 1199px) {
 	header {
 		flex-direction: column;
 		text-align: center;
@@ -173,9 +173,8 @@ footer p {
 	}
 }
 
-/* Mobile View (436px and below) */
-@media (max-width: 436px) {
-	/* Keep header structure */
+/* Mobile View (600px and below) */
+@media (max-width: 600px) {
 	header {
 		flex-direction: column;
 		align-items: center;
@@ -199,9 +198,7 @@ footer p {
 		margin-top: 5px;
 	}
 
-	/* Navigation - Ensure it wraps under the title */
 	nav {
-		background: none; /* Removes solid block */
 		padding: 5px 0;
 		width: 100%;
 		text-align: center;
@@ -210,7 +207,7 @@ footer p {
 	.navigation {
 		display: flex;
 		justify-content: center;
-		gap: 10px; /* Adds spacing between links */
+		gap: 10px;
 		flex-wrap: wrap;
 	}
 
@@ -225,18 +222,15 @@ footer p {
 		display: inline-block;
 	}
 
-	/* Adjust Main Heading */
 	.main-heading {
 		font-size: 18px;
 		padding: 10px;
 	}
 
-	/* Resize Main Image */
 	.main-image {
 		height: 180px;
 	}
 
-	/* Adjust Reviews Section */
 	.reviews-container {
 		flex-direction: column;
 		align-items: center;
