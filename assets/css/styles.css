@@ -8,8 +8,8 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #C9E4DE;
-	color: #577D86;
+	background-color: #c9e4de;
+	color: #577d86;
 	display: flex; /* required for sticky footer */
 	flex-direction: column; /* required for sticky footer */
 	height: 100%; /* required for sticky footer */
@@ -33,9 +33,9 @@ header {
 	padding: 15px;
 	width: 100%;
 	box-sizing: border-box;
-	background-color: #577D86;
+	background-color: #577d86;
 	color: #fff;
-	border-bottom: 3px solid #569DAA;
+	border-bottom: 3px solid #569daa;
 }
 
 .logo-title-container {
@@ -56,7 +56,7 @@ header {
 
 /* Navigation */
 nav {
-	background-color: #569DAA;
+	background-color: #569daa;
 	padding: 12px;
 	border-radius: 8px;
 }
@@ -77,20 +77,20 @@ nav {
 }
 
 .navigation a:hover {
-	background-color: #87CBB9;
+	background-color: #87cbb9;
 }
 
 /* Main Section */
 .main-section {
 	text-align: center;
-	background-color: #C9E4DE;
+	background-color: #c9e4de;
 	border-radius: 12px;
 	margin: 20px;
 }
 
 .main-heading {
 	padding: 0px 0px 20px 0px;
-	color: #577D86;
+	color: #577d86;
 }
 
 .main-image {
@@ -99,13 +99,14 @@ nav {
 	object-fit: cover;
 	display: block;
 	border-radius: 12px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Timetable Button */
 .timetable-button {
 	display: block;
 	padding: 10px 50px;
-	background-color: #569DAA;
+	background-color: #265073;
 	color: #fff;
 	text-decoration: none;
 	margin: 20px auto 10px auto;
@@ -113,24 +114,30 @@ nav {
 	width: fit-content;
 	border-radius: 8px;
 	transition: background 0.3s ease-in-out;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .timetable-button:hover {
-	background-color: #577D86;
+	background-color: #577d86;
 }
 
 /* Customer Reviews Section */
 .reviews-section {
 	text-align: center;
 	padding: 20px;
-	background-color: #87CBB9;
+	background-color: #87cbb9;
 	border-radius: 12px;
 	margin: 20px;
 }
 
 .reviews-heading {
 	color: #fff;
-	padding: 0px 0px 20px 0px;
+	padding: 20px 0px;
+}
+
+.review-text {
+	font-style: italic;
+	padding: 10px 0px;
 }
 
 .reviews-container {
@@ -157,9 +164,102 @@ nav {
 	border-radius: 50%;
 }
 
-/* Footer */
+.fa-user {
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: #c9e4de;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTACT FORM SECTION */
+main.contact {
+	display: flex;
+	flex-direction: row;
+}
+
+main.contact section {
+	flex: 1;
+}
+
+.contact-heading {
+	padding: 40px 0px 20px 0px;
+	color: #577d86;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+
+form label {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	padding: 10px;
+	border: 1px solid #265073;
+	border-radius: 8px;
+	margin-top: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+	border: 2px solid #2d9596;
+	outline: none;
+}
+
+.contact-button {
+	display: block;
+	padding: 10px 50px;
+	background-color: #265073;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px auto 0px auto;
+	text-align: center;
+	width: fit-content;
+	border-radius: 8px;
+	transition: background 0.3s ease-in-out;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-button:hover {
+	background-color: #577d86;
+	cursor: pointer;
+}
+
+.contact .fa-brands {
+	color: #577d86;
+}
+
+.contact-image {
+	width: 100%;
+	height: 265px;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	border-radius: 12px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	padding-top: 10px;
+}
+
+/* FOOTER SECTION */
 footer {
-	background-color: #577D86;
+	background-color: #577d86;
 	color: #fff;
 	text-align: center;
 	width: 100%;
@@ -259,6 +359,10 @@ footer p {
 	.hidden-review-desktop {
 		display: block;
 	}
+
+	main.contact {
+		flex-direction: column;
+	}
 }
 
 /* Mobile View (600px and below) */
@@ -341,5 +445,9 @@ footer p {
 
 	.hidden-review-desktop {
 		display: block;
+	}
+
+	main.contact {
+		flex-direction: column;
 	}
 }
