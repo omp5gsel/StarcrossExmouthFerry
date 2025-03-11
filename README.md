@@ -123,5 +123,5 @@ The incorrect navigation layout is beign shown on the tablet view, which matches
 + Navigation button deformations / overlapping
 As mentioned in the previous issues, the change to the navigation is causing overlapping and deformation on mobile views.
   >+ Cause:   Responsive sizes are not adequate for the tablet view. Currently static sizing is used for fonts, this needs to be updated to continue building the master page layout.
-  >+ Fix:     ***in progress***
-  >+ Check:   
+  >+ Fix:     Updated all font sizes to be rem sizing's rather than px, across the entire CSS file. These are not perfect, but can be fine tuned as needed. Px sizing commented out but still present for reference if required later.
+  >+ Check:   Tested on Google Chrome with multiple browser sizes, as well as mobile devices utilising GitHub pages. Mobile view looks good despite placeholder content, but I'm still not happy with tablet view

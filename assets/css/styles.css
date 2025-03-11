@@ -1,3 +1,8 @@
+/* Set the font size by default to be 100% */
+html {
+	font-size: 1rem;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -41,7 +46,7 @@ header {
 }
 
 .site-title {
-	font-size: 24px;
+	/* font-size: 24px; */
 	margin-left: 10px;
 	color: white;
 }
@@ -82,7 +87,7 @@ nav {
 }
 
 .main-heading {
-	font-size: 28px;
+	/* font-size: 28px; */
 	color: #265073;
 }
 
@@ -122,7 +127,7 @@ nav {
 }
 
 .reviews-heading {
-	font-size: 24px;
+	/* font-size: 24px; */
 	color: white;
 }
 
@@ -163,37 +168,47 @@ footer {
 }
 
 footer p {
-	font-size: 14px;
+	/* font-size: 14px; */
 	margin: 0;
 }
 
 /* Tablet View (601px - 1199px) */
 @media (min-width: 601px) and (max-width: 1199px) {
-	.site-title {
+
+	html {
+		font-size: 0.8rem;
+	}
+
+	/* .site-title {
 		margin-left: 0;
 		margin-top: 10px;
 		font-size: 22px;
-	}
+	} */
 
-	.navigation {
+	/* .navigation {
 		padding: 10px;
 	}
 
 	.navigation li {
 		margin: 5px 0;
-	}
+	} */
 
 	.reviews-container {
 		flex-wrap: wrap;
 	}
 
 	.review-card {
-		width: 90%;
+		width: 30%;
 	}
 }
 
 /* Mobile View (600px and below) */
 @media (max-width: 600px) {
+
+	html {
+		font-size: 0.7rem;
+	}
+
 	header {
 		flex-direction: column;
 		align-items: center;
@@ -213,7 +228,7 @@ footer p {
 	}
 
 	.site-title {
-		font-size: 20px;
+		/* font-size: 20px; */
 		margin-top: 5px;
 	}
 
@@ -235,14 +250,14 @@ footer p {
 	}
 
 	.navigation a {
-		font-size: 14px;
+		/* font-size: 14px; */
 		text-decoration: none;
 		padding: 5px 10px;
 		display: inline-block;
 	}
 
 	.main-heading {
-		font-size: 18px;
+		/* font-size: 18px; */
 		padding: 10px;
 	}
 
