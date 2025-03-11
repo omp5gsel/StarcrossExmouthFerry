@@ -1,6 +1,7 @@
 /* Set the font size by default to be 100% */
 html {
 	font-size: 1rem;
+	height: 100%; /* required for sticky footer */
 }
 
 body {
@@ -9,6 +10,9 @@ body {
 	padding: 0;
 	background-color: #ecf4d6;
 	color: #265073;
+    display: flex;	/* required for sticky footer */
+    flex-direction: column; /* required for sticky footer */
+	height: 100%; /* required for sticky footer */
 }
 
 /* Remove white gaps between sections */
@@ -46,7 +50,6 @@ header {
 }
 
 .site-title {
-	/* font-size: 24px; */
 	margin-left: 10px;
 	color: white;
 }
@@ -87,7 +90,6 @@ nav {
 }
 
 .main-heading {
-	/* font-size: 28px; */
 	color: #265073;
 }
 
@@ -127,7 +129,6 @@ nav {
 }
 
 .reviews-heading {
-	/* font-size: 24px; */
 	color: white;
 }
 
@@ -143,6 +144,10 @@ nav {
 	border-radius: 10px;
 	width: 30%;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden-review-desktop {
+	display: none;
 }
 
 .reviewer-photo {
@@ -167,8 +172,11 @@ footer {
 	border-radius: 50%;
 }
 
+footer {
+	margin-top: auto; /* required for sticky footer */
+}
+
 footer p {
-	/* font-size: 14px; */
 	margin: 0;
 }
 
@@ -197,7 +205,6 @@ footer p {
 	}
 
 	.site-title {
-		/* font-size: 20px; */
 		margin-top: 5px;
 	}
 
@@ -231,26 +238,20 @@ footer p {
 		height: 180px;
 	}
 
-	/* .site-title {
-		margin-left: 0;
-		margin-top: 10px;
-		font-size: 22px;
-	} */
-
-	/* .navigation {
-		padding: 10px;
-	}
-
-	.navigation li {
-		margin: 5px 0;
-	} */
-
 	.reviews-container {
+		display: flex;
 		flex-wrap: wrap;
+		gap: 15px;
 	}
 
 	.review-card {
-		width: 30%;
+		flex: 1 1 45%; /* fill space */
+		max-width: 45%; /* stops the cards from becoming too wide */
+		box-sizing: border-box;
+	}
+
+	.hidden-review-desktop {
+		display: block;
 	}
 }
 
@@ -325,7 +326,11 @@ footer p {
 		width: 90%;
 	}
 
-	.hidden-review {
+	.hidden-review-mobile {
+		display: none;
+	}
+
+	.hidden-review-desktop {
 		display: none;
 	}
 }
