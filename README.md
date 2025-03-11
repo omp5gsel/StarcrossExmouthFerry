@@ -104,4 +104,24 @@ The website layout was planned using wireframes to ensure a user-friendly and re
 ### Mobile Wireframe
 ![Mobile Wireframe](wireframes/wireframe-mobile.png)
 
->These wireframes helped structure the website before development, ensuring a clear navigation layout and proper content positioning.
+These wireframes helped structure the website before development, ensuring a clear navigation layout and proper content positioning.
+
+## Bugs/Issues
+
++ Responsive page sizes (tablet view)
+Views on different devices do not appear as expected, with the mobile view being below the minimum window width on desktop Google Chrome / Microsoft Edge.
+  >+ Cause:   Incorrect media sizes were taken from Balsamiq wireframe.
+  >+ Fix:     Updated media queries to use more acceptable size ranges.
+  >+ Check:   Tested by resizing the web browser on local environment. Also utilised GitHub pages to view on real mobile devices. Views appear generally correct, but more consideration needs to be made towards responsive design.
+
++ Navigation incorrect (tablet view)
+The incorrect navigation layout is beign shown on the tablet view, which matches the mobile view rather than being more similar to the desktop view.
+  >+ Cause:   When creating media queries mobile navigation CSS must have been left into tablet view by accident
+  >+ Fix:     Removed all navigation related CSS from tablet sizes. New navigation styling to be added to ensure it scales with tablets better rather than using the base, desktop, styles permanently. 
+  >+ Check:   Viewed page in web browser on local environment. Navigation now is closer to expected, I need to review responsive sizes instead of static sizing for fonts, site wide. Navigation is overlapping when compressed and deforming buttons making for a difficult keypress on tablet devices without a pointing device.
+
++ Navigation button deformations / overlapping
+As mentioned in the previous issues, the change to the navigation is causing overlapping and deformation on mobile views.
+  >+ Cause:   Responsive sizes are not adequate for the tablet view. Currently static sizing is used for fonts, this needs to be updated to continue building the master page layout.
+  >+ Fix:     ***in progress***
+  >+ Check:   
