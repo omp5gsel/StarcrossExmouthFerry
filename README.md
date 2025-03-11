@@ -124,4 +124,10 @@ The incorrect navigation layout is beign shown on the tablet view, which matches
 As mentioned in the previous issues, the change to the navigation is causing overlapping and deformation on mobile views.
   >+ Cause:   Responsive sizes are not adequate for the tablet view. Currently static sizing is used for fonts, this needs to be updated to continue building the master page layout.
   >+ Fix:     Updated all font sizes to be rem sizing's rather than px, across the entire CSS file. These are not perfect, but can be fine tuned as needed. Px sizing commented out but still present for reference if required later.
-  >+ Check:   Tested on Google Chrome with multiple browser sizes, as well as mobile devices utilising GitHub pages. Mobile view looks good despite placeholder content, but I'm still not happy with tablet view
+  >+ Check:   Tested on Google Chrome with multiple browser sizes, as well as mobile devices utilising GitHub pages. Mobile view looks good despite placeholder content, but I'm still not happy with tablet view.
+
++ The website footer is floating at the end of content
+The footer should be sticky to the bottom of the browser window, not shown at the end of the content. If their is not enough content to fill the viewable area, the footer will be incorrectly positioned.
+  >+ Cause:   No top-margin defined and <main> tag is missing and therefore causing inconsistent site semantics.
+  >+ Fix:     top margin added to footer with value auto and <main> tag added. To ensure that the footer is always in the correct place, a flex grid has been added to the body of the page as well as a height of 100% to ensure that content fills the browser sizes. This will caused the footer, along with the margin, to be pushed to the bottom of the page.
+  >+ Check:   Tested locally using browser windows being resized. I have then commited the updated code and checked on multiple mobile devices to ensure that the changes are showing correctly on real devices as well as the tested virtual devices.
