@@ -10,8 +10,8 @@ body {
 	padding: 0;
 	background-color: #ecf4d6;
 	color: #265073;
-    display: flex;	/* required for sticky footer */
-    flex-direction: column; /* required for sticky footer */
+	display: flex; /* required for sticky footer */
+	flex-direction: column; /* required for sticky footer */
 	height: 100%; /* required for sticky footer */
 }
 
@@ -83,13 +83,13 @@ nav {
 /* Main Section */
 .main-section {
 	text-align: center;
-	padding: 30px 10px;
 	background-color: #ecf4d6;
 	border-radius: 12px;
 	margin: 20px;
 }
 
 .main-heading {
+	padding: 0px 0px 20px 0px;
 	color: #265073;
 }
 
@@ -104,11 +104,11 @@ nav {
 /* Timetable Button */
 .timetable-button {
 	display: block;
-	padding: 15px 25px;
+	padding: 10px 50px;
 	background-color: #265073;
 	color: white;
 	text-decoration: none;
-	margin: 20px auto;
+	margin: 20px auto 10px auto;
 	text-align: center;
 	width: fit-content;
 	border-radius: 8px;
@@ -122,7 +122,7 @@ nav {
 /* Customer Reviews Section */
 .reviews-section {
 	text-align: center;
-	padding: 30px 10px;
+	padding: 20px;
 	background-color: #9ad0c2;
 	border-radius: 12px;
 	margin: 20px;
@@ -130,6 +130,7 @@ nav {
 
 .reviews-heading {
 	color: white;
+	padding: 0px 0px 20px 0px;
 }
 
 .reviews-container {
@@ -167,9 +168,14 @@ footer {
 	border-radius: 8px 8px 0 0;
 }
 
-.social-links img {
-	width: 30px;
-	border-radius: 50%;
+.social-links {
+	padding: 10px;
+}
+
+.social-links a {
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
 }
 
 footer {
@@ -326,11 +332,14 @@ footer p {
 		width: 90%;
 	}
 
+	/* Decided to keep these reviews to fill content on the main
+		page for mobile view
+
 	.hidden-review-mobile {
 		display: none;
-	}
+	} */
 
 	.hidden-review-desktop {
-		display: none;
+		display: block;
 	}
 }
