@@ -1,4 +1,5 @@
-/* Set the font size by default to be 100% */
+/* Universal styling - start */
+
 html {
 	font-size: 1rem;
 	height: 100%; /* required for sticky footer */
@@ -25,7 +26,28 @@ p {
 	padding: 0;
 }
 
-/* Header */
+.container-a,
+.container-b {
+	padding: 20px;
+}
+
+.main-heading {
+	padding: 0px 0px 20px 0px;
+	color: #577d86;
+}
+
+.fa-user {
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: #c9e4de;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Universal styling - end */
+
+/* Header - start */
 header {
 	display: flex;
 	align-items: center;
@@ -54,7 +76,6 @@ header {
 	color: #fff;
 }
 
-/* Navigation */
 nav {
 	background-color: #569daa;
 	padding: 12px;
@@ -80,7 +101,10 @@ nav {
 	background-color: #87cbb9;
 }
 
-/* Main Section */
+/* Header - end */
+
+/* TOP LEVEL ID CSS GROUPED FOR EASE - START */
+/* index.html */
 #main-section {
 	text-align: center;
 	background-color: #c9e4de;
@@ -88,10 +112,51 @@ nav {
 	margin: 20px;
 }
 
-.main-heading {
-	padding: 0px 0px 20px 0px;
-	color: #577d86;
+#reviews-section {
+	text-align: center;
+	padding: 20px;
+	background-color: #87cbb9;
+	border-radius: 12px;
+	margin: 20px;
 }
+
+/* route.hmtl */
+
+#routes {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	/* gap: 20px; */
+	justify-content: space-between;
+}
+
+
+#route-text {
+	flex: 2;
+	padding: 20px;
+}
+
+#route-map {
+	flex: 1;
+}
+
+/* contact.html */
+
+#contact {
+	display: flex;
+	flex-direction: row;
+}
+
+#contact-info,
+#contact-form {
+	text-align: center;
+	background-color: #c9e4de;
+	border-radius: 12px;
+}
+
+/* TOP LEVEL ID CSS GROUPED FOR EASE - END */
+
+/* index.html - start */
 
 .main-image {
 	width: 100%;
@@ -102,7 +167,6 @@ nav {
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Timetable Button */
 .timetable-button {
 	display: block;
 	padding: 10px 50px;
@@ -119,15 +183,6 @@ nav {
 
 .timetable-button:hover {
 	background-color: #577d86;
-}
-
-/* Customer Reviews Section */
-#reviews-section {
-	text-align: center;
-	padding: 20px;
-	background-color: #87cbb9;
-	border-radius: 12px;
-	margin: 20px;
 }
 
 .reviews-heading {
@@ -164,34 +219,79 @@ nav {
 	border-radius: 50%;
 }
 
-.fa-user {
-	padding: 15px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 50%;
-	background-color: #c9e4de;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+/* index.html - end */
+
+/* route.html start */
+
+.route-map {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	display: block;
+	border-radius: 10px 50px;
+	margin: auto;
 }
 
-#contact {
-	display: flex;
-	flex-direction: row;
+#route-text .container-a {
+	max-width: 800px;
+	padding: 20px;
+	margin: 0px auto;
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
 }
+
+#route-map .container-b {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.ferry-table {
+	width: 100%;
+	border-collapse: collapse;
+	color: #577d86;
+	font-size: 1rem;
+	margin: 10px 0px;
+}
+
+.ferry-table th,
+.ferry-table td {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #569daa;
+}
+
+.ferry-table td {
+	width: 50%;
+}
+
+.ferry-table thead tr {
+	background-color: #577d86;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* Style the last row differently as it's not always on */
+.ferry-table .last-row {
+	background-color: #c9e4de;
+	color: #265073;
+	font-weight: bold;
+}
+
+.ferry-table + p {
+	margin-top: 15px;
+	color: #577d86;
+}
+
+/* route.html end */
+
+/* contact.html start */
 
 #contact section {
 	flex: 1;
-}
-
-#contact-info,
-#contact-form {
-	text-align: center;
-	background-color: #c9e4de;
-	border-radius: 12px;
-}
-
-.container-a,
-.container-b {
-	padding: 20px;
 }
 
 #contact-form > .container-b {
@@ -276,7 +376,9 @@ form textarea:focus {
 	margin: auto;
 }
 
-/* FOOTER SECTION */
+/* contact.html end */
+
+/* Footer - start */
 footer {
 	background-color: #577d86;
 	color: #fff;
@@ -301,6 +403,8 @@ footer {
 footer p {
 	margin: 0;
 }
+
+/* Footer - end */
 
 /* Tablet View (601px - 1199px) */
 @media (min-width: 601px) and (max-width: 1199px) {
@@ -379,6 +483,10 @@ footer p {
 	#contact {
 		flex-direction: column;
 	}
+
+	#routes > section {
+		flex: 1 1 100%;
+	}
 }
 
 /* Mobile View (600px and below) */
@@ -455,5 +563,9 @@ footer p {
 
 	#contact {
 		flex-direction: column;
+	}
+
+	#routes > section {
+		flex: 1 1 100%;
 	}
 }
