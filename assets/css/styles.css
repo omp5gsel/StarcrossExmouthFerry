@@ -81,7 +81,7 @@ nav {
 }
 
 /* Main Section */
-.main-section {
+#main-section {
 	text-align: center;
 	background-color: #c9e4de;
 	border-radius: 12px;
@@ -122,7 +122,7 @@ nav {
 }
 
 /* Customer Reviews Section */
-.reviews-section {
+#reviews-section {
 	text-align: center;
 	padding: 20px;
 	background-color: #87cbb9;
@@ -173,19 +173,37 @@ nav {
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* CONTACT FORM SECTION */
-main.contact {
+#contact {
 	display: flex;
 	flex-direction: row;
 }
 
-main.contact section {
+#contact section {
 	flex: 1;
 }
 
-.contact-heading {
-	padding: 40px 0px 20px 0px;
-	color: #577d86;
+#contact-info,
+#contact-form {
+	text-align: center;
+	background-color: #c9e4de;
+	border-radius: 12px;
+}
+
+.container-a,
+.container-b {
+	padding: 20px;
+}
+
+#contact-form > .container-b {
+	padding-top: 0px;
+}
+
+#contact-info > .container-a > h2 {
+	padding-top: 20px;
+}
+
+#contact-info > .container-a > p {
+	padding-bottom: 8px; /* odd number to make boxes line up on desktop by default, probably doesn't work on all screen sizes */
 }
 
 form {
@@ -254,7 +272,8 @@ form textarea:focus {
 	display: block;
 	border-radius: 12px;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-	padding-top: 10px;
+	max-width: 800px;
+	margin: auto;
 }
 
 /* FOOTER SECTION */
@@ -266,6 +285,7 @@ footer {
 	box-sizing: border-box;
 	padding: 20px 0;
 	border-radius: 8px 8px 0 0;
+	margin-top: auto; /* required for sticky footer */
 }
 
 .social-links {
@@ -276,10 +296,6 @@ footer {
 	color: #fff;
 	text-decoration: none;
 	padding: 0 10px;
-}
-
-footer {
-	margin-top: auto; /* required for sticky footer */
 }
 
 footer p {
@@ -360,7 +376,7 @@ footer p {
 		display: block;
 	}
 
-	main.contact {
+	#contact {
 		flex-direction: column;
 	}
 }
@@ -390,7 +406,6 @@ footer p {
 	}
 
 	.site-title {
-		/* font-size: 20px; */
 		margin-top: 5px;
 	}
 
@@ -412,14 +427,12 @@ footer p {
 	}
 
 	.navigation a {
-		/* font-size: 14px; */
 		text-decoration: none;
 		padding: 5px 10px;
 		display: inline-block;
 	}
 
 	.main-heading {
-		/* font-size: 18px; */
 		padding: 10px;
 	}
 
@@ -436,18 +449,11 @@ footer p {
 		width: 90%;
 	}
 
-	/* Decided to keep these reviews to fill content on the main
-		page for mobile view
-
-	.hidden-review-mobile {
-		display: none;
-	} */
-
 	.hidden-review-desktop {
 		display: block;
 	}
 
-	main.contact {
+	#contact {
 		flex-direction: column;
 	}
 }
