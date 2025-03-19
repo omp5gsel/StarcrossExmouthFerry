@@ -48,9 +48,16 @@ This site is intended to serve the public who would like to travel via the Starc
 
 **How:**
 
--   Visit the homepage and navigate to the "Routes & Timetables" page.
+-   Visit the homepage and navigate to the `Routes & Timetables` page.
 -   View the available route and check the schedule.
 -   Click on "Contact Us" to call us in the event of uncertainty.
+
+**Check (19/03/2025):**
+
+-   Followed steps listed.
+-   `Routes & Timetables` has been renamed to `Route & Times` in the navigation throughtout development but now contains an icon to make it more user friendly, as well as making more sense since there is only one route taken.
+-   Schedule is easily visible with route map following closely. 
+-   `Contact Us` has been renamed to `Contact` throughtout development, but in this instance the telephone contact is avialable in the footer of every page for faster access.
 
 ### 2. Business - Advertisment
 
@@ -64,6 +71,12 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Locate the "Contact Us" page.
 -   Use the provided form to submit key information for the team to review and contact you back.
 
+**Check (19/03/2025):**
+
+-   Followed steps listed.
+-   `Contact Us` has been renamed to `Contact` in the navigation throughtout development but now contains an icon to make it more user friendly.
+-   Contact form is instantly visible
+
 ### 3. Business - Travel
 
 **Who:** A business looking to use the ferry outside of regular hours.
@@ -75,6 +88,13 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Visit the homepage.
 -   Locate the "Contact Us" page.
 -   Locate and call the available phone numbers, or use the provided form to submit key information for the team to review and contact you back.
+
+**Check (19/03/2025):**
+
+-   Followed steps listed.
+-   `Contact Us` has been renamed to `Contact` in the navigation throughtout development but now contains an icon to make it more user friendly.
+-   Contact form is instantly visible
+-   Phone numbers are in the footer on every page, but no phone numbers given on the `Contact.html` page. This is acceptable since other methods which are more suitable to the service are provided instead, such as Facebook.
 
 ### 4. Photographer
 
@@ -88,6 +108,13 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Scroll down the page to see selected images.
 -   Locate the "Routes & Timetables" page.
 -   View the available route and additional pictures.
+
+**Check (19/03/2025):**
+
+-   Followed steps listed.
+-   `Routes & Timetables` has been renamed to `Route & Times` in the navigation throughtout development but now contains an icon to make it more user friendly, as well as making more sense since there is only one route taken.
+-   Route map is shown immediately.
+-   No extra pictures are shown **update required to add additional images**.
 
 ## Technologies Used (Planned)
 
