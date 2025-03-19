@@ -155,3 +155,18 @@ These wireframes helped structure the website before development, ensuring a cle
 | [Google Reviews](https://www.google.co.uk/search?q=Starcross+Exmouth+Ferry+reviews) | Customer review descriptions                 |
 | [W3Schools](https://www.w3schools.com)                                              | HTML references & responsive design guidance |
 | [Colorhunt](https://colorhunt.co)                                                   | Colour palette (c9e4de87cbb9569daa577d86)    |
+| [W3C Markup Validation Service](https://validator.w3.org/)                          | HTML validator for testing                   |
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                           | CSS validator for testing                    |
+
+## W3C Validation Log
+
+This section tracks any **HTML & CSS validation issues** encountered during testing with [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+| Issue # | File/Location | Error Message | Fix Applied | Status |
+|---------|---------------|---------------|-------------|--------|
+| 1 | index.html (all) | Many: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Removed trailing slashes on all pages in the header and `<img>` tags | `Fixed` |
+| 2 | index.html (line 19) - repeated on all `fa-anchor` icons | Possible misuse of aria-label. | No issues: "For instance, simply adding the aria-label attribute with a text description to the interactive element itself will be sufficient to provide an accessible alternative name for the element." | `N/A` |
+| 3 | route.html (line 110) | Section lacks heading.  | Added `<h2>` element above the map and removed flex so that the heading sticks to the image correctly | `Fixed` |
+| 4 | pricing.html (line 92) | A table row was 4 columns wide and exceeded the column count established by the first row (3). | `colspan='4'` accidentally left when column remove, updated to `colspan='3'` | `Fixed` |
+| 5 | pricing.html (line 109) | No `<p>` element in scope but a `</p>` end tag seen. | Removed unnecessary `<p>` element | `Fixed` |
+| 6 | pricing.html (line 97) | Consider using the `<h1>` element as a top-level heading only (all `<h1>` elements are treated as top-level headings by many screen readers and other tools). | Updated to `<h2>` element instead | `Fixed` |

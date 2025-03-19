@@ -246,7 +246,6 @@ nav {
 
 #route-map .container-b {
 	height: 100%;
-	display: flex;
 	justify-content: center;
 }
 
@@ -290,6 +289,10 @@ nav {
 .standard-table + p {
 	margin-top: 15px;
 	color: #577d86;
+}
+
+#route-map > .container-b > h2 {
+	margin: 0px auto;
 }
 
 /* route.html end */
