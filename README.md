@@ -187,3 +187,7 @@ This section tracks **Google Lighthouse test results** for **Performance, Access
 Most of the lighthouse recommendations are based around `minify CSS` which is related to using the font-awesome `/all.css`. Perhaps in the future I should be using one of the `_min` files instead.
 
 All other, none documented, warnings are based around JavaScript which is actually not related to my website. These are scripts that are related to my Google Chrome extensions which are in turn causing performance issues. In the future, perhaps incognito / private browsing should be used during performance testing.
+> All images have now been converted to `webp`. 
+
+#### Ongoing Issue
+Google Lighthouse is flagging the `contact.html` page for "trust and safety" best practices due to the form using `mailto:`. As this is a test site, this will remain but does drag the lighthouse scores for this page down compared to others. 
