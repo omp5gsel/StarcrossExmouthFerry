@@ -170,3 +170,20 @@ This section tracks any **HTML & CSS validation issues** encountered during test
 | 4 | pricing.html (line 92) | A table row was 4 columns wide and exceeded the column count established by the first row (3). | `colspan='4'` accidentally left when column remove, updated to `colspan='3'` | `Fixed` |
 | 5 | pricing.html (line 109) | No `<p>` element in scope but a `</p>` end tag seen. | Removed unnecessary `<p>` element | `Fixed` |
 | 6 | pricing.html (line 97) | Consider using the `<h1>` element as a top-level heading only (all `<h1>` elements are treated as top-level headings by many screen readers and other tools). | Updated to `<h2>` element instead | `Fixed` |
+
+## Google Lighthouse Performance Testing Log
+
+This section tracks **Google Lighthouse test results** for **Performance, Accessibility and Best Practices**. Each test run is logged with its scores and any identified issues.
+
+### **Latest Lighthouse Scores**
+| Test Date | Page | Performance | Accessibility | Best Practices | SEO | To Improve |
+|-----------|------|-------------|---------------|----------------|-----|------------|
+| 19/03/2025 | index.html | 98 | 90 | 100 | 91 | Serve images in next-gen formats (`WebP` / `AVIF`)
+| 19/03/2025 | route.html | 99 | 91 | 100 | 91 | Image elements do not have explicit `width` and `height`
+| 19/03/2025 | pricing.html | 100 | 89 | 100 | 90 | No 'real' changes, see notes below
+| 19/03/2025 | contact.html | 99 | 87 | 78 | 91 | Serve images in next-gen formats (`WebP` / `AVIF`)
+
+#### **Notes:**
+Most of the lighthouse recommendations are based around `minify CSS` which is related to using the font-awesome `/all.css`. Perhaps in the future I should be using one of the `_min` files instead.
+
+All other, none documented, warnings are based around JavaScript which is actually not related to my website. These are scripts that are related to my Google Chrome extensions which are in turn causing performance issues. In the future, perhaps incognito / private browsing should be used during performance testing.
