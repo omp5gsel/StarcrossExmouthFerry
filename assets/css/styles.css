@@ -122,7 +122,7 @@ nav {
 
 /* route.hmtl */
 
-#routes, 
+#routes,
 #pricing {
 	text-align: center;
 	display: flex;
@@ -131,7 +131,7 @@ nav {
 	justify-content: space-between;
 }
 
-#route-text, 
+#route-text,
 #pricing-table {
 	flex: 2;
 	padding: 20px;
@@ -293,6 +293,39 @@ nav {
 
 #route-map > .container-b > h2 {
 	margin: 0px auto;
+}
+
+/* additional images */
+#additional-images {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#additional-images .container-a {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#additional-images .container-a h2 {
+	padding: 15px;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 15px;
+	justify-content: center;
+	width: 100%;
+}
+
+.image-grid img {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* route.html end */
@@ -496,6 +529,10 @@ footer p {
 	#routes > section {
 		flex: 1 1 100%;
 	}
+
+	.image-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 /* Mobile View (600px and below) */
@@ -576,5 +613,10 @@ footer p {
 
 	#routes > section {
 		flex: 1 1 100%;
+	}
+
+	.image-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
 	}
 }
