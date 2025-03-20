@@ -1,4 +1,5 @@
-> **Link to github page -> https://omp5gsel.github.io/StarcrossExmouthFerry/index.html**
+> **Link to github page -> https://github.com/omp5gsel/StarcrossExmouthFerry/deployments/github-pages**
+- *https://omp5gsel.github.io/StarcrossExmouthFerry*
 
 # Starcross Exmouth Ferry
 
