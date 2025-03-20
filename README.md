@@ -116,6 +116,11 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Route map is shown immediately.
 -   No extra pictures are shown **update required to add additional images**.
 
+**Check (20/03/2025):**
+
+-   Update has been pushed to add additional images to the bottom of the `Route & Times` page
+-   Flex-grid working on all device types, showing 6x1 grid on desktop, 3x2 on tablet and 2x3 on mobile.
+
 ## Technologies Used (Planned)
 
 | Technology       | Purpose                                                |
