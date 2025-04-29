@@ -14,6 +14,23 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Pricing
 -   Contact details
 
+## Development Process
+
+### 1. Planning
+I started by creating some user cases to help me outline the how the site should flow and what information is required.
+
+### 2. Wireframing
+I created wireframes for desktop, tablet and mobile versions using Balsamiq. These are included in the `wireframes` folder.
+
+### 3. Building the Site
+I built the HTML layout first for all four pages, focusing on the header, body and footer, then added CSS styling. This gave me the base template for all pages. I used flexboxes and media queries for responsiveness.
+
+### 4. Testing
+I tested the site manually on multiple browsers and devices. I used W3C validators and Lighthouse for performance and accessibility. Details are in the Testing section.
+
+### 5. Deployment
+The site was deployed to GitHub Pages.
+
 ## Navigation
 
 ### 1. Home Page (`index.html`)
@@ -192,6 +209,7 @@ These wireframes helped structure the website before development, ensuring a cle
 | [Colorhunt](https://colorhunt.co)                                                   | Colour palette (c9e4de87cbb9569daa577d86)    |
 | [W3C Markup Validation Service](https://validator.w3.org/)                          | HTML validator for testing                   |
 | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                           | CSS validator for testing                    |
+| [South West Sundays - YouTube](https://www.youtube.com/watch?v=Xj7GJ4Bq3K4)         | YouTube video for home page                  |
 
 ## W3C Validation Log
 
