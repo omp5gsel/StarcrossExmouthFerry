@@ -14,6 +14,8 @@ This site is intended to serve the public who would like to travel via the Starc
 -   Pricing
 -   Contact details
 
+---
+
 ## Development Process
 
 ### 1. Planning
@@ -30,6 +32,8 @@ I tested the site manually on multiple browsers and devices. I used W3C validato
 
 ### 5. Deployment
 The site was deployed to GitHub Pages.
+
+---
 
 ## Deployment Process
 
@@ -63,6 +67,8 @@ Within the HTML page, press Go Live along the bottom bar
 
 ![Go Live!](assets\images\readme\vscode-live-server-animated-demo.gif)
 
+---
+
 ## Navigation
 
 ### 1. Home Page (`index.html`)
@@ -89,6 +95,8 @@ Within the HTML page, press Go Live along the bottom bar
 -   Key people involved with the ferry
 -   Provide contact information
 -   Provide contact times, for example, not outside of X:XX to Y:YY hours
+
+---
 
 ## Use Cases
 
@@ -173,6 +181,28 @@ Within the HTML page, press Go Live along the bottom bar
 -   Update has been pushed to add additional images to the bottom of the `Route & Times` page
 -   Flex-grid working on all device types, showing 6x1 grid on desktop, 3x2 on tablet and 2x3 on mobile.
 
+---
+
+## User Stories
+
+### Travel Disruption and Weather Update
+
+**As a** local commuter, **I want to** check the ferry timetable and service updates during bad weather, **so that** I can plan an alternative route if the ferry is delayed or cancelled.
+
+> "During a recent period of bad weather, I needed to commute from Starcross to Exmouth but wasn’t sure if the ferry would be running. I visited the Starcross Exmouth Ferry website and used the navigation bar to access the ‘Route & Timetable’ page. There, I found a note about live updates being available on the Facebook page. I followed the link to Facebook, where I saw a post stating that the morning services would begin late due to strong winds. This allowed me to make other travel arrangements in time and avoid waiting at the pier."
+
+![Bad Weather](assets\images\readme\user-story-bad-weather.png)
+
+### Planning a Visit and Exploring the Ferry Experience
+
+**As a** first-time visitor to Devon, **I want to** understand what the ferry offers and what the experience is like, **so that** I can decide whether to include it in my travel plans.
+
+> "Before visiting Devon, I was looking for scenic and relaxing activities in the area. I found the Starcross Exmouth Ferry website via a local travel blog. The homepage caught my attention with a video embedded from YouTube showcasing the ferry journey, stunning views across the estuary, and onboard facilities. This gave me a clear idea of what to expect and helped me feel confident that the ferry would be a fun, worthwhile experience. We ended up including it in our trip and had a fantastic time crossing to Exmouth."
+
+![YouTube Video](assets\images\readme\user-story-experience.png)
+
+---
+
 ## Technologies Used (Planned)
 
 | Technology       | Purpose                                                |
@@ -182,6 +212,8 @@ Within the HTML page, press Go Live along the bottom bar
 | **Font Awesome** | Provides appealing icons.                              |
 | **Git & GitHub** | Version control and repository.                        |
 | **GitHub Pages** | Deployment of the site.                                |
+
+---
 
 ## Wireframes
 
@@ -200,6 +232,8 @@ The website layout was planned using wireframes to ensure a user-friendly and re
 ![Mobile Wireframe](wireframes/wireframe-mobile.png)
 
 These wireframes helped structure the website before development, ensuring a clear navigation layout and proper content positioning.
+
+---
 
 ## Bugs/Issues
 
@@ -230,6 +264,8 @@ These wireframes helped structure the website before development, ensuring a cle
     > -   Fix: top margin added to footer with value auto and <main> tag added. To ensure that the footer is always in the correct place, a flex grid has been added to the body of the page as well as a height of 100% to ensure that content fills the browser sizes. This will caused the footer, along with the margin, to be pushed to the bottom of the page.
     > -   Check: Tested locally using browser windows being resized. I have then commited the updated code and checked on multiple mobile devices to ensure that the changes are showing correctly on real devices as well as the tested virtual devices.
 
+---
+
 ## Credits & Attribution
 
 | Source                                                                              | Content Used                                 |
@@ -243,6 +279,8 @@ These wireframes helped structure the website before development, ensuring a cle
 | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                           | CSS validator for testing                    |
 | [South West Sundays - YouTube](https://www.youtube.com/watch?v=Xj7GJ4Bq3K4)         | YouTube video for home page                  |
 
+---
+
 ## W3C Validation Log
 
 This section tracks any **HTML & CSS validation issues** encountered during testing with [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
@@ -255,6 +293,8 @@ This section tracks any **HTML & CSS validation issues** encountered during test
 | 4 | pricing.html (line 92) | A table row was 4 columns wide and exceeded the column count established by the first row (3). | `colspan='4'` accidentally left when column remove, updated to `colspan='3'` | `Fixed` |
 | 5 | pricing.html (line 109) | No `<p>` element in scope but a `</p>` end tag seen. | Removed unnecessary `<p>` element | `Fixed` |
 | 6 | pricing.html (line 97) | Consider using the `<h1>` element as a top-level heading only (all `<h1>` elements are treated as top-level headings by many screen readers and other tools). | Updated to `<h2>` element instead | `Fixed` |
+
+--
 
 ## Google Lighthouse Performance Testing Log
 
