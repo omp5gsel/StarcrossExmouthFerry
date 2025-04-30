@@ -1,6 +1,8 @@
 > **Link to github page -> https://github.com/omp5gsel/StarcrossExmouthFerry/deployments/github-pages**
 - *https://omp5gsel.github.io/StarcrossExmouthFerry*
 
+> **Link to Kanban board project -> https://github.com/users/omp5gsel/projects/1 
+
 # Starcross Exmouth Ferry
 
 A website providing **route details, ferry schedules, pricing, and contact information** for passengers traveling between Starcross and Exmouth.
@@ -32,6 +34,12 @@ I tested the site manually on multiple browsers and devices. I used W3C validato
 
 ### 5. Deployment
 The site was deployed to GitHub Pages.
+
+---
+
+## Project Management
+
+Project planning and task tracking was managed using a [GitHub Project Kanban Board](https://github.com/users/omp5gsel/projects/1). This includes all tasks completed, in progress, and planned during the development of the site.
 
 ---
 
