@@ -200,6 +200,7 @@ Within the HTML page, press Go Live along the bottom bar
 > "During a recent period of bad weather, I needed to commute from Starcross to Exmouth but wasn’t sure if the ferry would be running. I visited the Starcross Exmouth Ferry website and used the navigation bar to access the ‘Route & Timetable’ page. There, I found a note about live updates being available on the Facebook page. I followed the link to Facebook, where I saw a post stating that the morning services would begin late due to strong winds. This allowed me to make other travel arrangements in time and avoid waiting at the pier."
 
 ![Bad Weather](assets\images\readme\user-story-bad-weather.png)
+![Facebook](assets\images\readme\screenshot-facebook-weather.png)
 
 ### Planning a Visit and Exploring the Ferry Experience
 
