@@ -31,6 +31,38 @@ I tested the site manually on multiple browsers and devices. I used W3C validato
 ### 5. Deployment
 The site was deployed to GitHub Pages.
 
+## Deployment Process
+
+### 1. Download the Code
+Head to the github [here](https://github.com/omp5gsel/StarcrossExmouthFerry) and select "Download ZIP" under the "<> Code" button.
+
+![Download GitHub Code](assets\images\readme\screenshot-download-github-code.png)
+
+### 2. Extract the Code to a Local Folder
+Locate you downloaded code, usually in C:\Users\\%username%\Downloads. Select your file, and then extract the code into a new folder using the "Extract All" button on the toolbar.
+
+![Extract Code](assets\images\readme\screenshot-extract-code.png)
+
+### 3. Install & Open VSCode
+You can download VSCode by clicking [here](https://code.visualstudio.com/download). Once you're in VScode, please click File > Open Folder and select your extracted code root folder.
+
+![Open code in VSCode](assets\images\readme\screenshot-open-code.png)
+
+### 4. Open any page
+Within the explorer pane on the left side of VScode, click onto *any* .html file to open this in the editor.
+
+![Open HTML file](assets\images\readme\screenshot-open-html-file.png)
+
+### 5. Install "Live Server"
+Using the extensions pane, outlined in the image below, search and install the "Live Server" extension.
+
+![Install Live Server](assets\images\readme\screenshot-install-live-server.png)
+
+### 6. "Go Live"
+Within the HTML page, press Go Live along the bottom bar
+
+![Go Live!](assets\images\readme\vscode-live-server-animated-demo.gif)
+
 ## Navigation
 
 ### 1. Home Page (`index.html`)
