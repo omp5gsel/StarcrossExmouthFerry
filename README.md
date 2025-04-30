@@ -308,6 +308,27 @@ This section tracks **Google Lighthouse test results** for **Performance, Access
 | 19/03/2025 | pricing.html | 100 | 89 | 100 | 90 | No 'real' changes, see notes below
 | 19/03/2025 | contact.html | 99 | 87 | 78 | 91 | Serve images in next-gen formats (`WebP` / `AVIF`)
 
+## Manual Testing Results
+
+Below are the results of manual tests across different devices and  interactions. Screenshots are added below the table with the test number, where relevant.
+
+| Test No. | Description | Steps Taken | Expected Result | Actual Result |
+|-|-|-|-|-|
+| 1 | Responsive view on mobile | Opened site on an Samsung S23 Ultra (Samsung Internet). Observed layout and scaling. | Site adjusts layout for small screens with readable text, mobile nav visible. | Site displayed correctly. Text readable, layout adjusted, nav accessible.
+| 2 | Responsive view on tablet | Opened site on Samsung Tab S8 Plus (Google Chrome). Observed layout and scaling. | Page content adapts to screen width, navigation remains visible. | Site displayed correctly. Text readable, layout adjusted, nav accessible.
+| 3 | Navigate to Instagram via footer | Clicked Instagram icon in footer from any page. | Instagram profile opens in a **new tab**. | Link opens correctly, but **opened in same tab**. *(Fixed by adding `target="_blank"`)*
+| 4 | Contact form used | Navigated to “Contact” page from nav menu. Filled out name/email/message and clicked submit. | Mail client opens with prefilled email fields. | As this is not a live site, mail link is insecure from GitPages and is blocked by default.
+
+--- 
+
+### Test No. 1
+![Samsung Internet](assets\images\readme\screenshot_samsung_phone_internet.jpg)
+
+### Test No. 2
+![Samsung Tab S8 Plus](assets\images\readme\screenshot_samsung_tablet_internet.jpg)
+
+
+
 #### **Notes:**
 Most of the lighthouse recommendations are based around `minify CSS` which is related to using the font-awesome `/all.css`. Perhaps in the future I should be using one of the `_min` files instead.
 
