@@ -1,7 +1,6 @@
-> **Link to github page -> https://github.com/omp5gsel/StarcrossExmouthFerry/deployments/github-pages**
-- *https://omp5gsel.github.io/StarcrossExmouthFerry*
+> **Link to github page -> https://omp5gsel.github.io/StarcrossExmouthFerry**
 
-> **Link to Kanban board project -> https://github.com/users/omp5gsel/projects/1 
+> **Link to Kanban board project -> https://github.com/users/omp5gsel/projects/1**
 
 # Starcross Exmouth Ferry
 
@@ -48,32 +47,32 @@ Project planning and task tracking was managed using a [GitHub Project Kanban Bo
 ### 1. Download the Code
 Head to the github [here](https://github.com/omp5gsel/StarcrossExmouthFerry) and select "Download ZIP" under the "<> Code" button.
 
-![Download GitHub Code](assets\images\readme\screenshot-download-github-code.png)
+![Download GitHub Code](assets/images/readme/screenshot-download-github-code.png)
 
 ### 2. Extract the Code to a Local Folder
 Locate you downloaded code, usually in C:\Users\\%username%\Downloads. Select your file, and then extract the code into a new folder using the "Extract All" button on the toolbar.
 
-![Extract Code](assets\images\readme\screenshot-extract-code.png)
+![Extract Code](assets/images/readme/screenshot-extract-code.png)
 
 ### 3. Install & Open VSCode
 You can download VSCode by clicking [here](https://code.visualstudio.com/download). Once you're in VScode, please click File > Open Folder and select your extracted code root folder.
 
-![Open code in VSCode](assets\images\readme\screenshot-open-code.png)
+![Open code in VSCode](assets/images/readme/screenshot-open-code.png)
 
 ### 4. Open any page
 Within the explorer pane on the left side of VScode, click onto *any* .html file to open this in the editor.
 
-![Open HTML file](assets\images\readme\screenshot-open-html-file.png)
+![Open HTML file](assets/images/readme/screenshot-open-html-file.png)
 
 ### 5. Install "Live Server"
 Using the extensions pane, outlined in the image below, search and install the "Live Server" extension.
 
-![Install Live Server](assets\images\readme\screenshot-install-live-server.png)
+![Install Live Server](assets/images/readme/screenshot-install-live-server.png)
 
 ### 6. "Go Live"
 Within the HTML page, press Go Live along the bottom bar
 
-![Go Live!](assets\images\readme\vscode-live-server-animated-demo.gif)
+![Go Live!](assets/images/readme/vscode-live-server-animated-demo.gif)
 
 ---
 
@@ -199,8 +198,8 @@ Within the HTML page, press Go Live along the bottom bar
 
 > "During a recent period of bad weather, I needed to commute from Starcross to Exmouth but wasn’t sure if the ferry would be running. I visited the Starcross Exmouth Ferry website and used the navigation bar to access the ‘Route & Timetable’ page. There, I found a note about live updates being available on the Facebook page. I followed the link to Facebook, where I saw a post stating that the morning services would begin late due to strong winds. This allowed me to make other travel arrangements in time and avoid waiting at the pier."
 
-![Bad Weather](assets\images\readme\user-story-bad-weather.png)
-![Facebook](assets\images\readme\screenshot-facebook-weather.png)
+![Bad Weather](assets/images/readme/user-story-bad-weather.png)
+![Facebook](assets/images/readme/screenshot-facebook-weather.png)
 
 ### Planning a Visit and Exploring the Ferry Experience
 
@@ -208,7 +207,7 @@ Within the HTML page, press Go Live along the bottom bar
 
 > "Before visiting Devon, I was looking for scenic and relaxing activities in the area. I found the Starcross Exmouth Ferry website via a local travel blog. The homepage caught my attention with a video embedded from YouTube showcasing the ferry journey, stunning views across the estuary, and onboard facilities. This gave me a clear idea of what to expect and helped me feel confident that the ferry would be a fun, worthwhile experience. We ended up including it in our trip and had a fantastic time crossing to Exmouth."
 
-![YouTube Video](assets\images\readme\user-story-experience.png)
+![YouTube Video](assets/images/readme/user-story-experience.png)
 
 ---
 
@@ -331,10 +330,10 @@ Below are the results of manual tests across different devices and  interactions
 --- 
 
 ### Test No. 1
-![Samsung Internet](assets\images\readme\screenshot_samsung_phone_internet.jpg)
+![Samsung Internet](assets/images/readme/screenshot_samsung_phone_internet.jpg)
 
 ### Test No. 2
-![Samsung Tab S8 Plus](assets\images\readme\screenshot_samsung_tablet_internet.jpg)
+![Samsung Tab S8 Plus](assets/images/readme/screenshot_samsung_tablet_internet.jpg)
 
 
 
